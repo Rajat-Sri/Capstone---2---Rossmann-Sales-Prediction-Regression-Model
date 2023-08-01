@@ -24,17 +24,17 @@ store_df = /content/drive/MyDrive/Almabetter/Capstone Projects/Capstone 2/retail
 
 sales_df = /content/drive/MyDrive/Almabetter/Capstone Projects/Capstone 2/retail sales prediction/Rossmann Stores Data.csv'
 
-Data Loading: To load the dataset into your Python script, you can use the following code:
+- Data Loading: To load the dataset into your Python script, you can use the following code:
 
 import pandas as pd
 
-- Load the 'store.csv' file
+Load the 'store.csv' file
 store_df = pd.read_csv('/content/drive/MyDrive/Almabetter/Capstone Projects/Capstone 2/retail sales prediction/store.csv')
 
-- Load the 'Rossmann Stores Data.csv' file
+Load the 'Rossmann Stores Data.csv' file
 sales_df = pd.read_csv('/content/drive/MyDrive/Almabetter/Capstone Projects/Capstone 2/retail sales prediction/Rossmann Stores Data.csv')
 
-- Merge the two dataframes based on the 'Store' column
+Merge the two dataframes based on the 'Store' column
 merged_df = pd.merge(sales_df, store_df, on='Store', how='left')
 
 ## Data Understanding: 
