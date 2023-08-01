@@ -8,7 +8,7 @@ In this project, we are working with a company called Rossmann that owns many dr
 The problem we're trying to solve is predicting sales for Rossmann stores. We want to understand how factors like promotions, competition, holidays, and other factors affect sales. This knowledge will help us understand customer behavior and provide recommendations to boost sales.
 
 ## File Information
-File Description: Certainly! Here's the updated file description for both CSV files, mentioning that they are in CSV format and collected from Almabetter:
+File Description:
 
 - File Name: store.csv
  The "store.csv" dataset contains information related to various retail stores operated by Rossmann. It provides details about each store, including their unique store numbers, store types, and assortment levels. The dataset is crucial for understanding the characteristics of each store and their potential impact on sales predictions in the retail sales prediction project. The data was collected from Almabetter, and it is in CSV format.
